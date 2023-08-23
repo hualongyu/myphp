@@ -4,7 +4,7 @@ $id = $_GET['id'];
 $playseek = $_GET['playseek'];
 
 $user = '13392382276';//改成你的名字
-$pw = strtoupper(md5h('yu22425335')); //123456改成你的密码
+$pw = strtoupper(md5('yu22425335')); //123456改成你的密码
 $pserialnumber ='5d84cb6c4f9a94d4'; //改成你的设备ID
 $t = time();
 $nonce = rand(100000,999999);
