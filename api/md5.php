@@ -5,4 +5,5 @@ $token = strtolower(md5('1878399009'));
 $url = "http://www.ttmd5.com/do.php?c=Api&m=crack&uid=$uid&token=$token&cipher=$md5";
 $data = file_get_contents($url);
 echo $data;
+echo $token;
 ?>
