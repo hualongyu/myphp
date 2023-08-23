@@ -5,7 +5,7 @@
 
     $ts = dechex(time()+3600*24*365);
     $sign = md5("ukcgq412312212d8ag123asdfsds/czbtv2019/czggpd$ts");
-    $bstrURL = "rtmp://pili-live-rtmp.czbtv.sobeylive.com/czbtv2019/czggpd?sign=$sign&t=$ts";
+    $bstrURL = "rtmp://live-rtmp-czbtv.sobeylive.com/czbtv2019/czggpd?sign=$sign&t=$ts";
     echo $bstrURL."<br />";
     $sign = md5("ukcgq412312212d8ag123asdfsds/czbtv2019/czzhpd$ts");
     $bstrURL = "rtmp://live-rtmp-czbtv.sobeylive.com/czbtv2019/czzhpd?sign=$sign&t=$ts";
